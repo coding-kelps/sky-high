@@ -11,7 +11,7 @@ The following Go program have been made in the purpose of consumming a Redis que
 To run this script you'll need the following:
 - [docker](https://www.docker.com/get-started/)
 - [docker compose](https://docs.docker.com/compose/install/)
-- a Redis queue already running filled with locations (see the [csv_to_redis_queue](../scripts/redis_to_gmaps_s3/README.md))
+- a Redis queue already running filled with locations
 - an access key id and secret for a S3 Bucket
 - an [API key for the Google static Map API](https://developers.google.com/maps/documentation/javascript/get-api-key#create-api-keys).
 
