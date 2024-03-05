@@ -1,0 +1,10 @@
+---
+version: '3'
+
+services:
+  sky_high:
+    image: sky-high
+    build: .
+    network_mode: host
+    volumes:
+      - ./sky_high.yml:/sky_high.yml
