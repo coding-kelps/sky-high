@@ -95,7 +95,6 @@ func setDefaults() {
 	viper.SetDefault("redis.db", 0)
 	viper.SetDefault("redis.queue_name", "locations")
 	viper.SetDefault("s3.endpoint", "s3.amazonaws.com")
-	viper.SetDefault("s3.region", "pink-twins-bucket")
 	viper.SetDefault("s3.image_folder", "satellite-images")
 }
 
