@@ -48,7 +48,7 @@ You can configure the script with the following environment variables:
 | redis.queue_name | The queue name to get elements from | no | "locations" |
 | s3.endpoint | The endpoint of the S3 bucket | no | "s3.amazonaws.com" |
 | s3.region | The region of the S3 bucket if any | no | |
-| s3.bucket_name | The S3 bucket name | no | |
+| s3.bucket_name | The S3 bucket name | yes | |
 | s3.image_folder | The folder in which satellite images should be pushed | no | satellite-images |
 | s3.access_key_id | The access key id to access the S3 Bucket | yes | |
 | s3.access_key_secret | The access key secret to access the S3 Bucket | yes | |
